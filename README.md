@@ -34,22 +34,23 @@ In this home lab, I will perform Sysadmin tasks on osTicket. I will use both adm
 
 ![image](https://github.com/user-attachments/assets/0dff2399-e774-4a8b-856e-c6ee968b9618)
 
-
-
 <h3>Configure Roles (for grouping permissions)</h3>
 <p>Admin Panel -> Agents -> Roles</p>
 <p>Supreme Admin</p>
-<p><img src="https://github.com/user-attachments/assets/10c4ee7c-3fdc-4b26-88fb-663dab00c0fa" alt="Role Configuration"></p>
+
+![image](https://github.com/user-attachments/assets/f20185e6-c92e-48a0-9441-0e881a60663e)
 
 <h3>Configure Departments (Ticket Visibility)</h3>
 <p>Admin Panel -> Agents -> Departments</p>
 <p>SysAdmins</p>
-<p><img src="https://github.com/user-attachments/assets/19763b01-5478-4dc2-88c0-f218458be69d" alt="Department Configuration"></p>
+
+![image](https://github.com/user-attachments/assets/2174401c-f97d-4235-aeae-39a24b284dfd)
 
 <h3>Configure Teams</h3>
 <p>Admin Panel -> Agents -> Teams (Pull Agents from different Departments)</p>
 <p>Online Banking</p>
-<p><img src="https://github.com/user-attachments/assets/1bebe59c-3fe6-47c0-9bf7-b3d6b316eb0c" alt="Teams Configuration"></p>
+
+![image](https://github.com/user-attachments/assets/2aaafddb-f742-4def-b281-0813768502cc)
 
 <h3>Allow anyone to create tickets</h3>
 <p>Admin Panel -> Settings -> User Settings (UNCHECK: unregistered users can create tickets)</p>
@@ -59,13 +60,15 @@ In this home lab, I will perform Sysadmin tasks on osTicket. I will use both adm
 <p>Admin Panel -> Agents -> Add New</p>
 <p>Jane (Dept: SysAdmins)</p>
 <p>John (Dept: Support)</p>
-<p><img src="https://github.com/user-attachments/assets/77bac8b4-dfa6-4efa-9d25-c304d0421fd1" alt="Agent Configuration"></p>
+
+![image](https://github.com/user-attachments/assets/424dacba-8737-42b0-a308-2c1fcfd97e76)
 
 <h3>Configure Users (customers)</h3>
 <p>Agent Panel -> Users -> Add New</p>
-<p>Marty</p>
-<p>Roman</p>
-<p><img src="https://github.com/user-attachments/assets/acaf21b0-6ec3-4380-8519-204a250230f8" alt="User Configuration"></p>
+<p>Emilia</p>
+<p>Gojo</p>
+
+![image](https://github.com/user-attachments/assets/0c0643a9-ada6-4918-978a-32ef6b322d68)
 
 <h3>Configure SLA</h3>
 <p>Admin Panel -> Manage -> SLA</p>
@@ -74,7 +77,8 @@ In this home lab, I will perform Sysadmin tasks on osTicket. I will use both adm
   <li>Sev-B (Grace Period: 4 hours, Schedule: 24/7)</li>
   <li>Sev-C (Grace Period: 8 hours, Business Hours)</li>
 </ul>
-<p><img src="https://github.com/user-attachments/assets/357048cf-1ed4-440c-9ac8-5c32b8be90d8" alt="SLA Configuration"></p>
+
+![image](https://github.com/user-attachments/assets/c8108e99-acf0-4f8b-9a8a-06c459a01410)
 
 <h3>Configure Help Topics (For when users create a ticket)</h3>
 <p>Admin Panel -> Manage -> Help Topics</p>
@@ -85,7 +89,8 @@ In this home lab, I will perform Sysadmin tasks on osTicket. I will use both adm
   <li>Password Reset</li>
   <li>Other</li>
 </ul>
-<p><img src="https://github.com/user-attachments/assets/5764346d-0eec-445a-a1a7-a6531220c564" alt="Help Topics Configuration"></p>
+
+![image](https://github.com/user-attachments/assets/e93d3ac4-728a-43da-b511-6702974ea06e)
 
 <h2>Takeaways and Key Skills Developed</h2>
-In this project, I configured osTicket by managing user roles, departments, and ticket settings. I set up roles to group permissions, defined departments for ticket visibility, and created teams by combining agents from different departments. I required user registration before ticket creation, added agents and users, and set up SLAs for different severity levels. Additionally, I created help topics to categorize tickets. This hands-on experience helped me learn to manage user roles, workflows, and settings in a ticketing system to improve help desk efficiency.
+In this lab, I configured osTicket by managing user roles, departments, and ticket settings. I set up roles to group permissions, defined departments for ticket visibility, and created teams by combining agents from different departments. I required user registration before ticket creation, added agents and users, and set up SLAs for different severity levels. Additionally, I created help topics to categorize tickets. This hands-on experience helped me learn to manage user roles, workflows, and settings in a ticketing system to improve help desk efficiency.
